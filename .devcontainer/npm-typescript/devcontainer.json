@@ -1,0 +1,20 @@
+{
+	"name": "npm-typescript",
+	"build": {
+		"context": ".",
+		"dockerfile": "./.Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"cardinal90.multi-cursor-case-preserve",
+				"dbaeumer.vscode-eslint",
+				"esbenp.prettier-vscode",
+				"github.copilot",
+				"github.copilot-chat",
+				"rvest.vs-code-prettier-eslint"
+			]
+		}
+	},
+	"remoteUser": "root"
+}
